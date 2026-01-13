@@ -39,6 +39,7 @@ namespace Hash_Table
         }
 
 
+
         private int Hash(string str)
         {
             int sum = 0;
