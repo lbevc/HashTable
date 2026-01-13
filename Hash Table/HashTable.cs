@@ -83,6 +83,29 @@ namespace Hash_Table
 
             return -1; 
         }
+        public void Delete(string name)
+        {
+            int index = Hash(name);
+
+            Node current = buckets[index];
+            Node previous = null;
+
+            while (current != null)
+            {
+                if (current.Name == name)
+                {
+                    if (previous == null)
+                        buckets[index] = current.Next;
+                    else
+                        previous.Next = current.Next;
+
+                    return;
+                }
+
+                previous = current;
+                current = current.Next;
+            }
+        }
 
 
 
