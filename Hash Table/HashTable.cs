@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System;
+
+namespace Hash_Table
+{
+    public class HashTable
+    {
+  
+        public Node[] buckets;
+
+        private int length;
+
+        public HashTable(int length)
+        {
+            this.length = length;
+            buckets = new Node[length];
+        }
+        public void Display()
+        {
+            for (int i = 0; i < length; i++)
+            {
+                Console.Write(i + ": ");
+
+                Node current = buckets[i];
+
+                while (current != null)
+                {
+                    Console.Write("[" + current.Name + "," + current.Value + "] ");
+                    current = current.Next;
+                }
+
+                Console.WriteLine();
+            }
+        }
+
+        
+        private int Hash(string str)
+        {
+            int sum = 0;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                sum = sum + str[i];
+            }
+
+            return sum % length;
+        }
+    }
+}
+
