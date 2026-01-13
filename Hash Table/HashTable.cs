@@ -67,6 +67,24 @@ namespace Hash_Table
             Node newNode = new Node(name, value, buckets[index]);
             buckets[index] = newNode;
         }
+        public int Search(string name)
+        {
+            int index = Hash(name);
+
+            Node current = buckets[index];
+
+            while (current != null)
+            {
+                if (current.Name == name)
+                    return current.Value;
+
+                current = current.Next;
+            }
+
+            return -1; 
+        }
+
+
 
     }
 }
