@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Lana\\Desktop\\algoritmi\\Hash Table\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{971ED48B-4BA5-4DE3-B1EF-8491F27213C5}|Hash Table\\Hash Table.csproj|c:\\users\\lana\\desktop\\algoritmi\\hash table\\hash table\\hashtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{971ED48B-4BA5-4DE3-B1EF-8491F27213C5}|Hash Table\\Hash Table.csproj|solutionrelative:hash table\\hashtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{971ED48B-4BA5-4DE3-B1EF-8491F27213C5}|Hash Table\\Hash Table.csproj|c:\\users\\lana\\desktop\\algoritmi\\hash table\\hash table\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{971ED48B-4BA5-4DE3-B1EF-8491F27213C5}|Hash Table\\Hash Table.csproj|solutionrelative:hash table\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{971ED48B-4BA5-4DE3-B1EF-8491F27213C5}|Hash Table\\Hash Table.csproj|c:\\users\\lana\\desktop\\algoritmi\\hash table\\hash table\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{971ED48B-4BA5-4DE3-B1EF-8491F27213C5}|Hash Table\\Hash Table.csproj|solutionrelative:hash table\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971ED48B-4BA5-4DE3-B1EF-8491F27213C5}|Hash Table\\Hash Table.csproj|c:\\users\\lana\\desktop\\algoritmi\\hash table\\hash table\\hashtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971ED48B-4BA5-4DE3-B1EF-8491F27213C5}|Hash Table\\Hash Table.csproj|solutionrelative:hash table\\hashtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lana\\Desktop\\algoritmi\\Hash Table\\Hash Table\\Program.cs",
               "RelativeDocumentMoniker": "Hash Table\\Program.cs",
               "ToolTip": "C:\\Users\\Lana\\Desktop\\algoritmi\\Hash Table\\Hash Table\\Program.cs",
               "RelativeToolTip": "Hash Table\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA+wCgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T20:07:25.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HashTable.cs",
               "DocumentMoniker": "C:\\Users\\Lana\\Desktop\\algoritmi\\Hash Table\\Hash Table\\HashTable.cs",
               "RelativeDocumentMoniker": "Hash Table\\HashTable.cs",
               "ToolTip": "C:\\Users\\Lana\\Desktop\\algoritmi\\Hash Table\\Hash Table\\HashTable.cs",
               "RelativeToolTip": "Hash Table\\HashTable.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvygAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T20:03:25.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Node.cs",
               "DocumentMoniker": "C:\\Users\\Lana\\Desktop\\algoritmi\\Hash Table\\Hash Table\\Node.cs",
               "RelativeDocumentMoniker": "Hash Table\\Node.cs",
               "ToolTip": "C:\\Users\\Lana\\Desktop\\algoritmi\\Hash Table\\Hash Table\\Node.cs",
               "RelativeToolTip": "Hash Table\\Node.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T20:01:35.484Z",
               "EditorCaption": ""

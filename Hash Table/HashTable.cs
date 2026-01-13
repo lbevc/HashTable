@@ -10,7 +10,7 @@ namespace Hash_Table
 {
     public class HashTable
     {
-  
+
         public Node[] buckets;
 
         private int length;
@@ -38,7 +38,7 @@ namespace Hash_Table
             }
         }
 
-        
+
         private int Hash(string str)
         {
             int sum = 0;
@@ -50,6 +50,24 @@ namespace Hash_Table
 
             return sum % length;
         }
+
+
+        public void Insert(string name, int value)
+        {
+            int index = Hash(name);
+
+            Node current = buckets[index];
+            while (current != null)
+            {
+                if (current.Name == name)
+                    return;
+
+                current = current.Next;
+            }
+            Node newNode = new Node(name, value, buckets[index]);
+            buckets[index] = newNode;
+        }
+
     }
 }
 

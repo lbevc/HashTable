@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System;
-
 namespace Hash_Table
 {
     class Program
@@ -14,27 +12,35 @@ namespace Hash_Table
         {
             HashTable table = new HashTable(9);
 
-            table.buckets[0] = new Node("Iva", 2, null);
-            table.buckets[1] = new Node("Kim", 3, null);
-            table.buckets[2] = new Node("Ana", 1, null);
-            table.buckets[3] = new Node("Tea", 9, null);
-            table.buckets[4] = new Node("Lea", 6, null);
-            table.buckets[5] = new Node("Bob", 4, new Node("Ivo", 5, null));
-            table.buckets[6] = new Node("Ena", 8, null);
-            table.buckets[7] = new Node("Joe", 7, null);
-            table.buckets[8] = null;
+            table.Insert("Iva", 2);
+            table.Insert("Kim", 3);
+            table.Insert("Ana", 1);
+            table.Insert("Tea", 9);
+            table.Insert("Lea", 6);
+            table.Insert("Bob", 4);
+            table.Insert("Ivo", 5);
+            table.Insert("Ena", 8);
+            table.Insert("Joe", 7);
 
             table.Display();
 
             Console.WriteLine();
             Console.WriteLine("Bob, 4");
-            table.buckets[5] = new Node("Ivo", 5, null);
-            table.buckets[7] = null;
+            table.Insert("Ivo", 5); 
+            HashTable table2 = new HashTable(9);
 
-            table.Display();
+            table2.Insert("Iva", 2);
+            table2.Insert("Kim", 3);
+            table2.Insert("Ana", 1);
+            table2.Insert("Tea", 9);
+            table2.Insert("Lea", 6);
+            table2.Insert("Ivo", 5);
+            table2.Insert("Ena", 8);
 
-            Console.ReadLine();
+            table2.Display();
+            Console.WriteLine();
         }
     }
 }
+
 
