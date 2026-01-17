@@ -82,7 +82,7 @@ namespace Hash_Table
                 current = current.Next;
             }
 
-            return -1; 
+            throw new KeyNotFoundException($"The key '{name}' was not found in the hash table.");
         }
         public void Delete(string name)
         {
@@ -106,6 +106,7 @@ namespace Hash_Table
                 previous = current;
                 current = current.Next;
             }
+            throw new KeyNotFoundException($"The key '{name}' was not found and cannot be deleted.");
         }
 
 
